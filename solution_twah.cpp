@@ -14,7 +14,7 @@ struct Record
 
     bool operator<(const Record& r)
     {
-        return price < r.price;
+        return price < r.price; // ignored precision
     }
 };
 
